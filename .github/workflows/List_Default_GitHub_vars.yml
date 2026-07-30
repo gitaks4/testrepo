@@ -10,12 +10,12 @@ jobs:
     steps:
       - run: env
 
-windows-environment-variables:
-  runs-on: windows-latest
-  steps:
+  windows-environment-variables:
+    runs-on: windows-latest
+    steps:
     - run: env
 
-macos-environment-variables: 
-  runs-on: macos-latest
-  steps:
+  macos-environment-variables: 
+    runs-on: macos-latest
+    steps:
     - run: env
