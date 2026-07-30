@@ -7,7 +7,7 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
-    envrionment:
+    environment:
       name: production
       url: https://github.com
 
